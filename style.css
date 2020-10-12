@@ -1,0 +1,38 @@
+body{
+    background-color: pink;
+    text-align: center;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+.link{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+.logo_cdiscount{
+    width: 37%;
+    margin-left: 10%;
+}
+.logo_amazon{
+    width: 43%;
+    margin: 0;
+}
+.amazon, .cdiscount{
+    width: 300px;
+    height: 250px;
+    
+}
+.separator{
+    border-bottom: 4px solid #333333;
+    border-radius: 5px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+footer{
+    font-family: 'Roboto Mono', sans-serif;
+    text-align: right;
+    padding-right: 70px;
+}
